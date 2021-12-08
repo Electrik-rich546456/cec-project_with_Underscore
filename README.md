@@ -16,4 +16,5 @@ cec Source lis.txt
 cec-client switches.txt
 
  Help with classes of libcec
+Demo code source https://github.com/Pulse-Eight/libcec
 Device https://www.pulse-eight.com/p/104/usb-hdmi-cec-adapter
