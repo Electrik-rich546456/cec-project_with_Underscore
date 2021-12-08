@@ -14,4 +14,4 @@ def tv_tog(num):
 #
 #modules = dir()
 #
-#print(modules)
+print(modules)
