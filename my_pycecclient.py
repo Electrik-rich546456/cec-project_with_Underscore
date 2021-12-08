@@ -106,5 +106,5 @@ class pyCecClass(*num):
 if __name__ == '__main__':
     # initialise libCEC
     lib =  pyCecClass()
-    lib.InitLibCec(2)
+    lib.InitLibCec(2) # if i change it here it does difrent stuff 
 #    print(__name__)
