@@ -1,0 +1,10 @@
+4F:82:10:00 parameters = b'\x10\x00' ===== HDMI 1
+4F:82:30:00 parameters = b'\x30\x00' ===== HDMI 2
+4F:82:20:00 parameters = b'\x20\x00' ===== HDMI 3
+
+pure activity list
+cec-client -d 8 -p 1 -b 5 -t p -o MythTV
+
+
+
+

@@ -1,0 +1,98 @@
+<module '_cec' from '/usr/lib/python3/dist-packages/_cec.cpython-38-x86_64-linux-gnu.so'>
+<module 'cec' from '/usr/lib/python3/dist-packages/cec.py'>
+libCEC version 4.0.4 loaded: git revision: libcec-4.0.4+1-ba9b538~dirty, compiled on Wed 12 Feb 13:45:05 UTC 2020 by user@user-pc on Linux 5.3.0-29-generic (x86_64), features: P8_USB, DRM, P8_detect, randr
+NOTICE:  [1373]     connection opened
+found a CEC adapter:
+port:     /dev/ttyACM0
+vendor:   0x2548
+product:  0x1002
+NOTICE:  [2601]     connection opened
+TRAFFIC: [2601]     << f0
+TRAFFIC: [2742]     << f0:8c
+TRAFFIC: [3009]     >> 0f:00:8c:04
+[command received] >> 0f:00:8c:04
+NOTICE:  [3009]     registering new CEC client - v4.0.4
+TRAFFIC: [3009]     << 11
+TRAFFIC: [3093]     << 11
+TRAFFIC: [3233]     << 1f:84:10:00:01
+TRAFFIC: [3446]     >> 01:46
+[command received] >> 01:46
+TRAFFIC: [3446]     << 10:47:70:79:4c:69:62:43:65:63
+TRAFFIC: [3766]     >> 0f:85
+[command received] >> 0f:85
+NOTICE:  [3876]     CEC client registered: libCEC version = 4.0.4, client version = 4.0.4, firmware version = 9, firmware build date: Fri Nov  2 10:08:56 2018 +0000, logical address(es) = Recorder 1 (1) , physical address: 1.0.0.0, git revision: libcec-4.0.4+1-ba9b538~dirty, compiled on Wed 12 Feb 13:45:05 UTC 2020 by user@user-pc on Linux 5.3.0-29-generic (x86_64), features: P8_USB, DRM, P8_detect, randr
+TRAFFIC: [3876]     << 10:47:70:79:4c:69:62:43:65:63
+TRAFFIC: [4162]     << 10:8f
+TRAFFIC: [4432]     >> 01:90:00
+connection opened
+Enter command:[command received] >> 01:90:00
+TRAFFIC: [5123]     >> 01:46
+[command received] >> 01:46
+TRAFFIC: [5123]     << 10:47:70:79:4c:69:62:43:65:63
+TRAFFIC: [7453]     >> 01
+
+Enter command:TRAFFIC: [9542]     >> 02
+TRAFFIC: [9597]     >> 02
+scan
+requesting CEC bus information ...
+TRAFFIC: [11480]     << 12
+TRAFFIC: [11530]     >> 03
+TRAFFIC: [11583]     << 12
+TRAFFIC: [11673]     >> 03
+TRAFFIC: [11673]     << 13
+TRAFFIC: [11758]     << 13
+TRAFFIC: [11843]     << 14
+TRAFFIC: [11928]     << 14
+TRAFFIC: [12013]     << 15
+TRAFFIC: [12098]     << 15
+TRAFFIC: [12183]     << 16
+TRAFFIC: [12267]     << 16
+TRAFFIC: [12352]     << 17
+TRAFFIC: [12437]     << 17
+TRAFFIC: [12522]     << 18
+TRAFFIC: [12607]     << 18
+TRAFFIC: [12691]     << 19
+TRAFFIC: [12776]     << 19
+TRAFFIC: [12860]     << 1a
+TRAFFIC: [12945]     << 1a
+TRAFFIC: [13030]     << 1b
+TRAFFIC: [13115]     << 1b
+TRAFFIC: [13200]     << 1c
+TRAFFIC: [13285]     << 1c
+TRAFFIC: [13370]     << 1d
+TRAFFIC: [13455]     << 1d
+TRAFFIC: [13527]     << 1e
+TRAFFIC: [13527]     >> 04
+TRAFFIC: [13596]     << 1e
+TRAFFIC: [13686]     >> 04
+TRAFFIC: [13686]     << 1f:85
+TRAFFIC: [14741]     << 1f:85
+TRAFFIC: [15845]     << 10:9f
+TRAFFIC: [16140]     >> 01:9e:05
+CEC bus information
+===================
+device #0: TV
+address:       0
+active source: False
+vendor:        Unknown
+CEC version:   1.4
+OSD name:      TV
+power status:  on
+
+
+device #1: Recorder 1
+address:       4096
+active source: False
+vendor:        Pulse Eight
+CEC version:   1.4
+OSD name:      pyLibCec
+power status:  on
+
+
+
+Enter command:[command received] >> 01:9e:05
+TRAFFIC: [18183]     >> 05
+TRAFFIC: [18238]     >> 05
+TRAFFIC: [20170]     >> 06
+TRAFFIC: [20225]     >> 06
+
